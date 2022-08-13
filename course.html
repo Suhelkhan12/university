@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="uni.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawes/ome/fontawesome-free@6.1.2/css/fontawesome.min.css">   -->
+    <!-- is se hmara less width vale device k liye menu icon add hoga -->
+    <!-- <script src="uni.js"></script> -->
+</head>
+
+<body>
+    
+    <!-- header section
+     -->
+     <section class="sub-header">
+        <nav class="nav-bar">
+            <a href=" index.html"><img src="images/logo.png" alt="error"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="university.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+
+        </nav>
+        <h1>Our Courses
+        </h1>
+    </section>
+
+
+    <!-- course section -->
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quaerat nihil ducimus modi nemo, voluptates
+            saepe perferendis molestias sequi repudiandae consequatur repellat quia neque molestiae officiis. Aliquid
+            facere laudantium unde voluptate, dolor reiciendis repudiandae beatae eius id illum? Ab, minima.</p>
+
+        <!-- this is for different courses available in the university -->
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, molestias? Distinctio, unde. Eum,
+                    commodi architecto tempora ducimus nihil placeat laboriosam?
+                </p>
+
+            </div>
+            <div class="course-col">
+                <h3>Undergraduate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, molestias? Distinctio, unde. Eum,
+                    commodi architecto tempora ducimus nihil placeat laboriosam?
+                </p>
+
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, molestias? Distinctio, unde. Eum,
+                    commodi architecto tempora ducimus nihil placeat laboriosam?
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus  -->
+
+    <!-- footer -->
+    <sectoin class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum vero hic qui accusamus necessitatibus neque
+            tempore dolor id esse minima.</p>
+
+        <div class="icons">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <p id="credits">Made with <i class="fa fa-heart" aria-hidden="true"></i> by Suhel Khan</p>
+        </div>
+    </sectoin>
+
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
